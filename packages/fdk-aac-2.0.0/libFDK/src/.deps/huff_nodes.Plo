@@ -1,0 +1,31 @@
+libFDK/src/huff_nodes.lo: libFDK/src/huff_nodes.cpp \
+  libFDK/include/huff_nodes.h libSYS/include/genericStds.h \
+  libSYS/include/machine_type.h \
+  /usr/include/clang/5.0.0/include/stddef.h /usr/include/assert.h \
+  /usr/include/features.h /usr/include/stdc-predef.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+
+libFDK/include/huff_nodes.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+/usr/include/clang/5.0.0/include/stddef.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:

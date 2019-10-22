@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/packages/cmake-3.15.4/Tests/RunCMake/pseudo_cppcheck.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

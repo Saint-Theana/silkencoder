@@ -1,0 +1,2 @@
+/root/packages/cmake-3.15.4/Source/Checks/Curses-build/CMakeFiles/rebuild_cache.dir
+/root/packages/cmake-3.15.4/Source/Checks/Curses-build/CMakeFiles/edit_cache.dir

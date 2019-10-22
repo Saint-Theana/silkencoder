@@ -1,0 +1,123 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/packages/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_190cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_190cd.dir/build.make CMakeFiles/cmTC_190cd.dir/build
+make[1]: Entering directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_190cd.dir/CheckSymbolExists.c.o
+/usr/bin/clang-5.0     -o CMakeFiles/cmTC_190cd.dir/CheckSymbolExists.c.o   -c /root/packages/aom_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_190cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_190cd.dir/link.txt --verbose=1
+/usr/bin/clang-5.0       CMakeFiles/cmTC_190cd.dir/CheckSymbolExists.c.o  -o cmTC_190cd 
+CMakeFiles/cmTC_190cd.dir/CheckSymbolExists.c.o: In function `main':
+/root/packages/aom_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_190cd.dir/build.make:97: recipe for target 'cmTC_190cd' failed
+make[1]: *** [cmTC_190cd] Error 1
+make[1]: Leaving directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_190cd/fast' failed
+make: *** [cmTC_190cd/fast] Error 2
+
+File /root/packages/aom_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/packages/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fefe7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fefe7.dir/build.make CMakeFiles/cmTC_fefe7.dir/build
+make[1]: Entering directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fefe7.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fefe7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fefe7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fefe7.dir/link.txt --verbose=1
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fefe7.dir/CheckFunctionExists.c.o  -o cmTC_fefe7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_fefe7.dir/build.make:97: recipe for target 'cmTC_fefe7' failed
+make[1]: *** [cmTC_fefe7] Error 1
+make[1]: Leaving directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fefe7/fast' failed
+make: *** [cmTC_fefe7/fast] Error 2
+
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED failed with the following output:
+Change Dir: /root/packages/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1e9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1e9f.dir/build.make CMakeFiles/cmTC_c1e9f.dir/build
+make[1]: Entering directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1e9f.dir/src.c.o
+/usr/bin/clang-5.0    -DC_FLAG_SUPPORTED   -Wlogical-op -o CMakeFiles/cmTC_c1e9f.dir/src.c.o   -c /root/packages/aom_build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+Linking C executable cmTC_c1e9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e9f.dir/link.txt --verbose=1
+/usr/bin/clang-5.0   -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_c1e9f.dir/src.c.o  -o cmTC_c1e9f -lm 
+make[1]: Leaving directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED failed with the following output:
+Change Dir: /root/packages/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4966/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4966.dir/build.make CMakeFiles/cmTC_c4966.dir/build
+make[1]: Entering directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4966.dir/src.cxx.o
+/usr/bin/clang++-5.0     -DCXX_FLAG_SUPPORTED   -Wlogical-op -o CMakeFiles/cmTC_c4966.dir/src.cxx.o -c /root/packages/aom_build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_c4966
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4966.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0    -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_c4966.dir/src.cxx.o  -o cmTC_c4966 -lm 
+make[1]: Leaving directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED failed with the following output:
+Change Dir: /root/packages/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88ecc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88ecc.dir/build.make CMakeFiles/cmTC_88ecc.dir/build
+make[1]: Entering directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88ecc.dir/src.c.o
+/usr/bin/clang-5.0    -DC_FLAG_SUPPORTED   -Wstack-usage=100000 -o CMakeFiles/cmTC_88ecc.dir/src.c.o   -c /root/packages/aom_build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wstack-usage=100000' [-Wunknown-warning-option]
+1 warning generated.
+Linking C executable cmTC_88ecc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ecc.dir/link.txt --verbose=1
+/usr/bin/clang-5.0   -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_88ecc.dir/src.c.o  -o cmTC_88ecc -lm 
+make[1]: Leaving directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED failed with the following output:
+Change Dir: /root/packages/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0085/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0085.dir/build.make CMakeFiles/cmTC_d0085.dir/build
+make[1]: Entering directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0085.dir/src.cxx.o
+/usr/bin/clang++-5.0     -DCXX_FLAG_SUPPORTED   -Wstack-usage=240000 -o CMakeFiles/cmTC_d0085.dir/src.cxx.o -c /root/packages/aom_build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wstack-usage=240000' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_d0085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0085.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0    -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_d0085.dir/src.cxx.o  -o cmTC_d0085 -lm 
+make[1]: Leaving directory '/root/packages/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

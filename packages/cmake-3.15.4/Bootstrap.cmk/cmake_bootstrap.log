@@ -1,0 +1,188 @@
+Checking for GNU toolchain
+Try: gcc
+Line: gcc  cmake_bootstrap_5657_test.c -o cmake_bootstrap_5657_test
+----------  file   -----------------------
+int main() { return 0; }
+------------------------------------------
+Test succeeded
+Try: g++
+Line: g++  cmake_bootstrap_5657_test.cpp -o cmake_bootstrap_5657_test
+----------  file   -----------------------
+int main() { return 0; }
+------------------------------------------
+Test succeeded
+Checking whether 'gcc   ' works.
+Try: gcc
+Line: gcc    cmake_bootstrap_5657_test.c -o cmake_bootstrap_5657_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+1
+Test succeeded
+Checking whether 'gcc     ' works.
+Try: gcc
+Line: gcc      cmake_bootstrap_5657_test.c -o cmake_bootstrap_5657_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+1
+Test succeeded
+Checking whether 'gcc       ' works.
+Try: gcc
+Line: gcc        cmake_bootstrap_5657_test.c -o cmake_bootstrap_5657_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+1
+Test succeeded
+Checking whether 'g++   ' works.
+Try: g++
+Line: g++    cmake_bootstrap_5657_test.cxx -o cmake_bootstrap_5657_test
+----------  file   -----------------------
+
+#include <iostream>
+#include <memory>
+#include <unordered_map>
+
+#if __cplusplus < 201103L
+#error "Compiler is not in a mode aware of C++11."
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__SUNPRO_CC) && __SUNPRO_CC < 0x5140
+#error "SunPro <= 5.13 mode not supported due to bug in move semantics."
+#endif
+
+class Class
+{
+public:
+  int Get() const { return this->Member; }
+private:
+  int Member = 1;
+};
+int main()
+{
+  auto const c = std::unique_ptr<Class>(new Class);
+  std::cout << c->Get() << std::endl;
+  return 0;
+}
+
+------------------------------------------
+In file included from /usr/include/c++/5/unordered_map:35:0,
+                 from cmake_bootstrap_5657_test.cxx:4:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+cmake_bootstrap_5657_test.cxx:7:2: error: #error "Compiler is not in a mode aware of C++11."
+ #error "Compiler is not in a mode aware of C++11."
+  ^
+cmake_bootstrap_5657_test.cxx:23:16: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   int Member = 1;
+                ^
+cmake_bootstrap_5657_test.cxx: In function ‘int main()’:
+cmake_bootstrap_5657_test.cxx:27:14: error: ‘c’ does not name a type
+   auto const c = std::unique_ptr<Class>(new Class);
+              ^
+cmake_bootstrap_5657_test.cxx:28:16: error: ‘c’ was not declared in this scope
+   std::cout << c->Get() << std::endl;
+                ^
+Test failed to compile
+Checking whether 'g++  -std=gnu++17 ' works.
+Try: g++
+Line: g++  -std=gnu++17  cmake_bootstrap_5657_test.cxx -o cmake_bootstrap_5657_test
+----------  file   -----------------------
+
+#include <iostream>
+#include <memory>
+#include <unordered_map>
+
+#if __cplusplus < 201103L
+#error "Compiler is not in a mode aware of C++11."
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__SUNPRO_CC) && __SUNPRO_CC < 0x5140
+#error "SunPro <= 5.13 mode not supported due to bug in move semantics."
+#endif
+
+class Class
+{
+public:
+  int Get() const { return this->Member; }
+private:
+  int Member = 1;
+};
+int main()
+{
+  auto const c = std::unique_ptr<Class>(new Class);
+  std::cout << c->Get() << std::endl;
+  return 0;
+}
+
+------------------------------------------

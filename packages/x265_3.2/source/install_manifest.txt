@@ -1,0 +1,5 @@
+/root/workspace/lib/libx265.a
+/root/workspace/include/x265.h
+/root/workspace/include/x265_config.h
+/root/workspace/lib/pkgconfig/x265.pc
+/root/workspace/bin/x265

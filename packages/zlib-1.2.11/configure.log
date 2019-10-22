@@ -1,0 +1,236 @@
+--------------------
+./configure --prefix=/root/workspace --cc=clang-5.0 -cxx=clang++-5.0 CC=clang-5.0 CXX=clang++-5.0 --extra-cflags=-fPIC --extra-ldflags=-fPIC --extra-cxxflags=-fPIC CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC
+Tue Oct 22 01:25:12 HKT 2019
+unknown option: --cc=clang-5.0
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace CC=clang-5.0 CXX=clang++-5.0 CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC
+Tue Oct 22 01:25:55 HKT 2019
+unknown option: CC=clang-5.0
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace CC=clang-5.0 CXX=clang++-5.0 CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC
+Tue Oct 22 01:25:59 HKT 2019
+unknown option: CC=clang-5.0
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace CC=clang-5.0 CXX=clang++-5.0 CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC
+Tue Oct 22 01:26:02 HKT 2019
+unknown option: CC=clang-5.0
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC
+Tue Oct 22 01:27:55 HKT 2019
+unknown option: CXXFLAGS=-fPIC
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC
+Tue Oct 22 01:28:02 HKT 2019
+unknown option: CXXFLAGS=-fPIC
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC unknown option: CXXFLAGS=-fPIC
+Tue Oct 22 01:28:35 HKT 2019
+unknown option: CXXFLAGS=-fPIC
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace
+Tue Oct 22 01:29:10 HKT 2019
+=== ztest94803.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+clang-5.0 -c ztest94803.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest94803.c ===
+int foo() { return 0; }
+===
+clang-5.0 -c -fPIC ztest94803.c
+
+Checking for shared library support...
+=== ztest94803.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+clang-5.0 -w -c -fPIC -fPIC ztest94803.c
+clang-5.0 -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -fPIC -fPIC -o ztest94803.so ztest94803.o
+Building shared library libz.so.1.2.11 with clang-5.0.
+
+=== ztest94803.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+clang-5.0 -c -fPIC ztest94803.c
+Checking for size_t... Yes.
+
+
+=== ztest94803.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+clang-5.0 -c -fPIC -D_LARGEFILE64_SOURCE=1 ztest94803.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest94803.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+clang-5.0 -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest94803 ztest94803.c
+Checking for strerror... Yes.
+
+=== ztest94803.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+clang-5.0 -c -fPIC -D_LARGEFILE64_SOURCE=1 ztest94803.c
+Checking for unistd.h... Yes.
+
+=== ztest94803.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+clang-5.0 -c -fPIC -D_LARGEFILE64_SOURCE=1 ztest94803.c
+Checking for stdarg.h... Yes.
+
+=== ztest94803.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+clang-5.0 -c -fPIC -D_LARGEFILE64_SOURCE=1 ztest94803.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest94803.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+clang-5.0 -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest94803 ztest94803.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest94803.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+clang-5.0 -c -fPIC -D_LARGEFILE64_SOURCE=1 ztest94803.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest94803.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+clang-5.0 -c -fPIC -D_LARGEFILE64_SOURCE=1 ztest94803.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = ar
+ARFLAGS = rc
+CC = clang-5.0
+CFLAGS = -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = clang-5.0 -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS = -fPIC
+LDSHARED = clang-5.0 -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = ranlib
+SFLAGS = -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.11
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /root/workspace
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/root/workspace CXXFLAGS=-fPIC LDFLAGS=-fPIC CFLAGS=-fPIC
+Tue Oct 22 01:29:48 HKT 2019
+unknown option: CXXFLAGS=-fPIC
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+

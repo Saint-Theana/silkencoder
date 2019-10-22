@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/packages/av1/aom/aom_integer.h
+stddef.h
+-
+stdint.h
+-
+inttypes.h
+-
+
+/root/packages/av1/aom_mem/aom_mem.c
+aom_mem.h
+/root/packages/av1/aom_mem/aom_mem.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+include/aom_mem_intrnl.h
+/root/packages/av1/aom_mem/include/aom_mem_intrnl.h
+aom/aom_integer.h
+/root/packages/av1/aom_mem/aom/aom_integer.h
+
+/root/packages/av1/aom_mem/aom_mem.h
+aom/aom_integer.h
+/root/packages/av1/aom_mem/aom/aom_integer.h
+config/aom_config.h
+/root/packages/av1/aom_mem/config/aom_config.h
+lddk.h
+-
+string.h
+-
+
+/root/packages/av1/aom_mem/include/aom_mem_intrnl.h
+config/aom_config.h
+/root/packages/av1/aom_mem/include/config/aom_config.h
+
+config/aom_config.h
+

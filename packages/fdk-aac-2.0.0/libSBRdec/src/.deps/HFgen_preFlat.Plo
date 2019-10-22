@@ -1,0 +1,94 @@
+libSBRdec/src/HFgen_preFlat.lo: libSBRdec/src/HFgen_preFlat.cpp \
+  libSBRdec/src/HFgen_preFlat.h libFDK/include/common_fix.h \
+  libFDK/include/FDK_archdef.h libSYS/include/machine_type.h \
+  /usr/include/clang/5.0.0/include/stddef.h /usr/include/assert.h \
+  /usr/include/features.h /usr/include/stdc-predef.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h libFDK/include/fixmul.h \
+  libFDK/include/x86/fixmul_x86.h libFDK/include/abs.h \
+  libFDK/include/x86/abs_x86.h libFDK/include/clz.h \
+  libFDK/include/x86/clz_x86.h libFDK/include/fixmadd.h \
+  libFDK/include/fixminmax.h libFDK/include/cplx_mul.h \
+  libFDK/include/fixpoint_math.h libFDK/include/scale.h \
+  libSYS/include/genericStds.h libFDK/include/x86/fixpoint_math_x86.h \
+  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+  /usr/include/x86_64-linux-gnu/bits/inf.h \
+  /usr/include/x86_64-linux-gnu/bits/nan.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+
+libSBRdec/src/HFgen_preFlat.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/FDK_archdef.h:
+
+libSYS/include/machine_type.h:
+
+/usr/include/clang/5.0.0/include/stddef.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+libFDK/include/fixmul.h:
+
+libFDK/include/x86/fixmul_x86.h:
+
+libFDK/include/abs.h:
+
+libFDK/include/x86/abs_x86.h:
+
+libFDK/include/clz.h:
+
+libFDK/include/x86/clz_x86.h:
+
+libFDK/include/fixmadd.h:
+
+libFDK/include/fixminmax.h:
+
+libFDK/include/cplx_mul.h:
+
+libFDK/include/fixpoint_math.h:
+
+libFDK/include/scale.h:
+
+libSYS/include/genericStds.h:
+
+libFDK/include/x86/fixpoint_math_x86.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:

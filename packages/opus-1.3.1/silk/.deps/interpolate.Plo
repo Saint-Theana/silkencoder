@@ -1,0 +1,171 @@
+silk/interpolate.lo: silk/interpolate.c config.h silk/main.h \
+  silk/SigProc_FIX.h /usr/include/string.h /usr/include/features.h \
+  /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/stddef.h \
+  /usr/include/xlocale.h silk/typedef.h include/opus_types.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  include/opus_defines.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/float.h \
+  silk/resampler_structs.h silk/macros.h celt/arch.h celt/ecintrin.h \
+  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+  /usr/include/x86_64-linux-gnu/bits/inf.h \
+  /usr/include/x86_64-linux-gnu/bits/nan.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/limits.h \
+  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h celt/cpu_support.h \
+  celt/x86/x86cpu.h silk/x86/SigProc_FIX_sse.h silk/Inlines.h \
+  silk/MacroCount.h /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h silk/MacroDebug.h \
+  silk/define.h silk/errors.h silk/structs.h celt/entenc.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/__stddef_max_align_t.h \
+  celt/entcode.h celt/entdec.h silk/tables.h silk/PLC.h silk/control.h \
+  silk/debug.h silk/x86/main_sse.h
+
+config.h:
+
+silk/main.h:
+
+silk/SigProc_FIX.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+silk/typedef.h:
+
+include/opus_types.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+include/opus_defines.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/float.h:
+
+silk/resampler_structs.h:
+
+silk/macros.h:
+
+celt/arch.h:
+
+celt/ecintrin.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+celt/cpu_support.h:
+
+celt/x86/x86cpu.h:
+
+silk/x86/SigProc_FIX_sse.h:
+
+silk/Inlines.h:
+
+silk/MacroCount.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+silk/MacroDebug.h:
+
+silk/define.h:
+
+silk/errors.h:
+
+silk/structs.h:
+
+celt/entenc.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/__stddef_max_align_t.h:
+
+celt/entcode.h:
+
+celt/entdec.h:
+
+silk/tables.h:
+
+silk/PLC.h:
+
+silk/control.h:
+
+silk/debug.h:
+
+silk/x86/main_sse.h:

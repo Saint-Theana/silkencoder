@@ -1,0 +1,38 @@
+libFDK/src/FDK_crc.lo: libFDK/src/FDK_crc.cpp libFDK/include/FDK_crc.h \
+  libFDK/include/FDK_bitstream.h libFDK/include/FDK_bitbuffer.h \
+  libFDK/include/FDK_archdef.h libSYS/include/machine_type.h \
+  /usr/include/clang/5.0.0/include/stddef.h /usr/include/assert.h \
+  /usr/include/features.h /usr/include/stdc-predef.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  libSYS/include/genericStds.h
+
+libFDK/include/FDK_crc.h:
+
+libFDK/include/FDK_bitstream.h:
+
+libFDK/include/FDK_bitbuffer.h:
+
+libFDK/include/FDK_archdef.h:
+
+libSYS/include/machine_type.h:
+
+/usr/include/clang/5.0.0/include/stddef.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+libSYS/include/genericStds.h:

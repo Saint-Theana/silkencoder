@@ -1,0 +1,97 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/root/packages/av1/test/active_map_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/active_map_test.cc.o"
+  "/root/packages/av1/test/altref_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/altref_test.cc.o"
+  "/root/packages/av1/test/aq_segment_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/aq_segment_test.cc.o"
+  "/root/packages/av1/test/arf_freq_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/arf_freq_test.cc.o"
+  "/root/packages/av1/test/av1_convolve_2d_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_convolve_2d_test.cc.o"
+  "/root/packages/av1/test/av1_convolve_2d_test_util.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_convolve_2d_test_util.cc.o"
+  "/root/packages/av1/test/av1_convolve_scale_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_convolve_scale_test.cc.o"
+  "/root/packages/av1/test/av1_fwd_txfm1d_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_fwd_txfm1d_test.cc.o"
+  "/root/packages/av1/test/av1_fwd_txfm2d_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_fwd_txfm2d_test.cc.o"
+  "/root/packages/av1/test/av1_horz_only_frame_superres_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_horz_only_frame_superres_test.cc.o"
+  "/root/packages/av1/test/av1_inv_txfm1d_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_inv_txfm1d_test.cc.o"
+  "/root/packages/av1/test/av1_inv_txfm2d_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_inv_txfm2d_test.cc.o"
+  "/root/packages/av1/test/av1_nn_predict_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_nn_predict_test.cc.o"
+  "/root/packages/av1/test/av1_round_shift_array_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_round_shift_array_test.cc.o"
+  "/root/packages/av1/test/av1_txfm_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_txfm_test.cc.o"
+  "/root/packages/av1/test/av1_wedge_utils_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/av1_wedge_utils_test.cc.o"
+  "/root/packages/av1/test/avg_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/avg_test.cc.o"
+  "/root/packages/av1/test/blend_a64_mask_1d_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/blend_a64_mask_1d_test.cc.o"
+  "/root/packages/av1/test/blend_a64_mask_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/blend_a64_mask_test.cc.o"
+  "/root/packages/av1/test/borders_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/borders_test.cc.o"
+  "/root/packages/av1/test/comp_avg_pred_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/comp_avg_pred_test.cc.o"
+  "/root/packages/av1/test/comp_mask_variance_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/comp_mask_variance_test.cc.o"
+  "/root/packages/av1/test/cpu_speed_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/cpu_speed_test.cc.o"
+  "/root/packages/av1/test/datarate_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/datarate_test.cc.o"
+  "/root/packages/av1/test/edge_detect_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/edge_detect_test.cc.o"
+  "/root/packages/av1/test/encode_api_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/encode_api_test.cc.o"
+  "/root/packages/av1/test/encode_test_driver.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/encode_test_driver.cc.o"
+  "/root/packages/av1/test/encodetxb_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/encodetxb_test.cc.o"
+  "/root/packages/av1/test/end_to_end_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/end_to_end_test.cc.o"
+  "/root/packages/av1/test/error_block_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/error_block_test.cc.o"
+  "/root/packages/av1/test/error_resilience_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/error_resilience_test.cc.o"
+  "/root/packages/av1/test/fft_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/fft_test.cc.o"
+  "/root/packages/av1/test/frame_error_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/frame_error_test.cc.o"
+  "/root/packages/av1/test/frame_size_tests.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/frame_size_tests.cc.o"
+  "/root/packages/av1/test/fwd_kf_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/fwd_kf_test.cc.o"
+  "/root/packages/av1/test/fwht4x4_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/fwht4x4_test.cc.o"
+  "/root/packages/av1/test/gf_max_pyr_height_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/gf_max_pyr_height_test.cc.o"
+  "/root/packages/av1/test/hadamard_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/hadamard_test.cc.o"
+  "/root/packages/av1/test/hash_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/hash_test.cc.o"
+  "/root/packages/av1/test/horver_correlation_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/horver_correlation_test.cc.o"
+  "/root/packages/av1/test/horz_superres_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/horz_superres_test.cc.o"
+  "/root/packages/av1/test/intra_edge_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/intra_edge_test.cc.o"
+  "/root/packages/av1/test/level_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/level_test.cc.o"
+  "/root/packages/av1/test/lossless_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/lossless_test.cc.o"
+  "/root/packages/av1/test/masked_sad_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/masked_sad_test.cc.o"
+  "/root/packages/av1/test/masked_variance_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/masked_variance_test.cc.o"
+  "/root/packages/av1/test/monochrome_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/monochrome_test.cc.o"
+  "/root/packages/av1/test/motion_vector_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/motion_vector_test.cc.o"
+  "/root/packages/av1/test/noise_model_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/noise_model_test.cc.o"
+  "/root/packages/av1/test/obmc_sad_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/obmc_sad_test.cc.o"
+  "/root/packages/av1/test/obmc_variance_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/obmc_variance_test.cc.o"
+  "/root/packages/av1/test/pickrst_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/pickrst_test.cc.o"
+  "/root/packages/av1/test/qm_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/qm_test.cc.o"
+  "/root/packages/av1/test/quantize_func_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/quantize_func_test.cc.o"
+  "/root/packages/av1/test/reconinter_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/reconinter_test.cc.o"
+  "/root/packages/av1/test/resize_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/resize_test.cc.o"
+  "/root/packages/av1/test/rt_end_to_end_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/rt_end_to_end_test.cc.o"
+  "/root/packages/av1/test/sad_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/sad_test.cc.o"
+  "/root/packages/av1/test/scalability_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/scalability_test.cc.o"
+  "/root/packages/av1/test/subtract_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/subtract_test.cc.o"
+  "/root/packages/av1/test/sum_squares_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/sum_squares_test.cc.o"
+  "/root/packages/av1/test/svc_datarate_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/svc_datarate_test.cc.o"
+  "/root/packages/av1/test/time_stamp_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/time_stamp_test.cc.o"
+  "/root/packages/av1/test/variance_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/variance_test.cc.o"
+  "/root/packages/av1/test/warp_filter_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/warp_filter_test.cc.o"
+  "/root/packages/av1/test/warp_filter_test_util.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/warp_filter_test_util.cc.o"
+  "/root/packages/av1/test/wiener_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/wiener_test.cc.o"
+  "/root/packages/av1/test/y4m_test.cc" "/root/packages/aom_build/CMakeFiles/test_aom_encoder.dir/test/y4m_test.cc.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/root/packages/av1/third_party/googletest/src/googletest/include"
+  "/root/packages/av1/third_party/googletest/src/googletest"
+  "/root/packages/av1"
+  "."
+  "/root/packages/av1/apps"
+  "/root/packages/av1/common"
+  "/root/packages/av1/examples"
+  "/root/packages/av1/stats"
+  "/root/packages/av1/third_party/libyuv/include"
+  "/root/packages/av1/third_party/libwebm"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,129 @@
+libglib_2_0_la-gunicollate.lo: gunicollate.c ../config.h \
+  /usr/include/locale.h /usr/include/features.h \
+  /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/xlocale.h \
+  /usr/include/string.h /usr/include/wchar.h /usr/include/stdio.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h gmem.h ../glib/gtypes.h \
+  glibconfig.h ../glib/gmacros.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/limits.h \
+  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/lib/llvm-5.0/lib/clang/5.0.0/include/float.h \
+  ../glib/gversionmacros.h /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h gunicode.h ../glib/gerror.h \
+  ../glib/gquark.h gunicodeprivate.h gstring.h ../glib/gbytes.h \
+  ../glib/garray.h ../glib/gutils.h gstrfuncs.h gtestutils.h \
+  ../glib/gmessages.h ../glib/gslist.h ../glib/gnode.h gcharset.h
+
+../config.h:
+
+/usr/include/locale.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/string.h:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+gmem.h:
+
+../glib/gtypes.h:
+
+glibconfig.h:
+
+../glib/gmacros.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/__stddef_max_align_t.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/lib/llvm-5.0/lib/clang/5.0.0/include/float.h:
+
+../glib/gversionmacros.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+gunicode.h:
+
+../glib/gerror.h:
+
+../glib/gquark.h:
+
+gunicodeprivate.h:
+
+gstring.h:
+
+../glib/gbytes.h:
+
+../glib/garray.h:
+
+../glib/gutils.h:
+
+gstrfuncs.h:
+
+gtestutils.h:
+
+../glib/gmessages.h:
+
+../glib/gslist.h:
+
+../glib/gnode.h:
+
+gcharset.h:
